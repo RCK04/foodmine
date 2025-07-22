@@ -3,11 +3,12 @@ import { Food } from '../../../shared/models/Food';
 import { FoodService } from '../../../services/food.service';
 import { RouterModule } from '@angular/router';
 import { CommonModule, NgFor } from '@angular/common';
+import { StarRatingComponent } from "../../partials/star-rating/star-rating.component";
 
 @Component({
   selector: 'app-home',
   standalone: true,
-  imports: [RouterModule, CommonModule],
+  imports: [RouterModule, CommonModule, StarRatingComponent],
   templateUrl: './home.component.html',
   styleUrl: './home.component.css'
 })
