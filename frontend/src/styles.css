@@ -1,24 +1,21 @@
 @import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
 
+/* reset */
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
-
 html {
     font-size: 16px;
 }
-
 html,
 button {
     font-family: "Quicksand", "sans-serif";
 }
-
 body {
     margin: 0;
 }
-
 a {
     text-decoration: none;
 }
